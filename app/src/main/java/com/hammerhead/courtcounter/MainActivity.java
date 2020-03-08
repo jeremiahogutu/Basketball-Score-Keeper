@@ -22,11 +22,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void twoPointerForTeamA(View v) {
-        displayForTeamA(2);
+        scoreTeamA = scoreTeamA + 2;
+        displayForTeamA(scoreTeamA);
     }
 
     public void freeThrowForTeamA(View v) {
-        displayForTeamA(1);
+        scoreTeamA = scoreTeamA + 1;
+        displayForTeamA(scoreTeamA);
     }
 
     /**
